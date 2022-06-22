@@ -21,18 +21,20 @@ curl -O -L https://ziglang.org/builds/zig-linux-aarch64-0.10.0-dev.2674+d980c6a3
 ## Extract the Zig Compiler
 tar xf zig-linux-aarch64-0.10.0-dev.2674+d980c6a38.tar.xz
 
-## Add to PATH. TODO: Also add this line to ~/.bashrc, remember to change $PWD
-export PATH="$PWD/zig-linux-aarch64-0.10.0-dev.2674+d980c6a38:$PATH"
+## Add to PATH. TODO: Also add this line to ~/.bashrc
+export PATH="$HOME/zig-linux-aarch64-0.10.0-dev.2674+d980c6a38:$PATH"
 
 ## Test the Zig Compiler, should show "0.10.0-dev.2674+d980c6a38"
 zig version
 ```
 
+![Zig Compiler on PinePhone](https://lupyuen.github.io/images/GridArt_20220622_102635788~2.jpg)
+
 _Will Zig Compiler run on any PinePhone?_
 
-I tested the Zig Compiler with Manjaro Phosh on PinePhone, but I think it should work on any PinePhone distro since the Zig Compiler is a self-contained Arm64 Binary.
+I tested the Zig Compiler with Manjaro Phosh on PinePhone (pic above), but it will probably work on any PinePhone distro since the Zig Compiler is a self-contained Arm64 Binary.
 
-![Zig Compiler on PinePhone](https://lupyuen.github.io/images/GridArt_20220622_102635788~2.jpg)
+[(Zig Compiler works with Mobian on PinePhone too)](https://twitter.com/techneo/status/1539510460726509568)
 
 # Install Zigmod
 
@@ -161,5 +163,9 @@ https://github.com/zenith391/zgt
 For convenience, we may use VSCode Remote to do Remote Development with PinePhone...
 
 https://code.visualstudio.com/docs/remote/remote-overview
+
+Just connect VSCode to PinePhone via SSH, as described here...
+
+https://code.visualstudio.com/docs/remote/ssh
 
 ![VSCode Remote on PinePhone](https://lupyuen.github.io/images/Screenshot%202022-06-22%20at%209.49.10%20AM~2.png)
