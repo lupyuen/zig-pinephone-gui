@@ -169,3 +169,13 @@ Just connect VSCode to PinePhone via SSH, as described here...
 https://code.visualstudio.com/docs/remote/ssh
 
 ![VSCode Remote on PinePhone](https://lupyuen.github.io/images/Screenshot%202022-06-22%20at%209.49.10%20AM~2.png)
+
+# PineBook Pro
+
+_Will the app run on Arm64 laptops like Pinebook Pro?_
+
+Yep! The same steps will work on Pinebook Pro.
+
+Here's our app running with Manjaro Xfce on Pinebook Pro...
+
+![Our app running with Manjaro Xfce on Pinebook Pro](https://lupyuen.github.io/images/Screenshot_2022-06-22_18-13-31_061534.png)
