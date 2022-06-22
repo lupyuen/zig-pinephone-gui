@@ -31,7 +31,7 @@ zig version
 
 # VSCode Remote
 
-We may use VSCode Remote to do remote development on PinePhone...
+For convenience, we may use VSCode Remote to do Remote Development with PinePhone...
 
 https://code.visualstudio.com/docs/remote/remote-overview
 
