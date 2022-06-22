@@ -30,7 +30,7 @@ zig version
 
 # Install Zigmod
 
-Download the latest [Zigmod Package Manager](https://nektro.github.io/zigmod/) from...
+Download the latest [Zigmod Package Manager](https://nektro.github.io/zigmod/) `zigmod-aarch64-linux` from...
 
 https://github.com/nektro/zigmod/releases
 
@@ -41,7 +41,7 @@ curl -O -L https://github.com/nektro/zigmod/releases/download/r80/zigmod-aarch64
 ## Make it executable
 chmod +x zigmod-aarch64-linux 
 
-## Move it to the Zig Compiler directory
+## Move it to the Zig Compiler directory, rename as zigmod
 mv zigmod-aarch64-linux zig-linux-aarch64-0.10.0-dev.2674+d980c6a38/zigmod
 
 ## Test Zigmod, should show "zigmod r80 linux aarch64 musl"

@@ -14,7 +14,7 @@ pub fn main() !void {
             // Expanded means the widget will take all the space it can
             // in the parent container
             zgt.Expanded(
-                zgt.TextArea(.{ .text = "Hello World!" })
+                zgt.TextArea(.{ .text = "Hello World!\n\nThis is a Zig GUI App...\n\nBuilt for PinePhone...\n\nWith zgt Library!" })
             )
         })
     );
