@@ -82,6 +82,8 @@ To run the app on PinePhone...
 zig-out/bin/zig-pinephone-gui
 ```
 
+We should see the screen below.
+
 When we tap the `Run` and `Save` buttons, we should see...
 
 ```text
@@ -90,6 +92,8 @@ info: You clicked button with text Save
 ```
 
 Yep we have successfully built a Zig GUI App for PinePhone with zgt! 🎉
+
+![Zig GUI App for PinePhone](https://lupyuen.github.io/images/PXL_20220622_061922131~2.jpg)
 
 # Inside The App
 
