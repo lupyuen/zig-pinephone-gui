@@ -53,13 +53,20 @@ zigmod
 To build the app on PinePhone...
 
 ```bash
+## Download the Source Code
 git clone --recursive https://github.com/lupyuen/zig-pinephone-gui
 cd zig-pinephone-gui
+
+## Install the dependencies for zgt library
 pushd libs/zgt
 zigmod fetch
 popd
+
+## Build the app
 zig build
 ```
+
+[(See the Build Log)](https://gist.github.com/lupyuen/a44bc3faaf6d674d2b227aeb992ccfb8)
 
 # Run The App
 
@@ -69,14 +76,14 @@ To run the app on PinePhone...
 zig-out/bin/zig-pinephone-gui
 ```
 
-We should see...
+When we tap the `Run` and `Save` buttons, we should see...
 
 ```text
 info: You clicked button with text Run
-info: You clicked button with text Run
-info: You clicked button with text Run
 info: You clicked button with text Save
 ```
+
+Yep we have successfully built a Zig GUI App for PinePhone with zgt! 🎉
 
 # VSCode Remote
 
