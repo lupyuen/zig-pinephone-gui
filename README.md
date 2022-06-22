@@ -170,7 +170,7 @@ https://code.visualstudio.com/docs/remote/ssh
 
 ![VSCode Remote on PinePhone](https://lupyuen.github.io/images/Screenshot%202022-06-22%20at%209.49.10%20AM~2.png)
 
-# PineBook Pro
+# Pinebook Pro
 
 _Will the app run on Arm64 laptops like Pinebook Pro?_
 
