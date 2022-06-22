@@ -33,5 +33,8 @@ pub fn build(b: *std.build.Builder) void {
     const test_step = b.step("test", "Run unit tests");
     test_step.dependOn(&exe_tests.step);
 
-    try @import("libs/zgt/build.zig").install(exe, "./path/to/zgt");
+    // Add zgt library to build
+    @import("libs/zgt/build.zig")
+        .install(exe, "./libs/zgt")
+        catch {};
 }

@@ -14,7 +14,7 @@ https://ziglang.org/download/
 
 ```bash
 ## Download the Zig Compiler
-curl -O https://ziglang.org/builds/zig-linux-aarch64-0.10.0-dev.2674+d980c6a38.tar.xz
+curl -O -L https://ziglang.org/builds/zig-linux-aarch64-0.10.0-dev.2674+d980c6a38.tar.xz
 
 ## Extract the Zig Compiler
 tar xf zig-linux-aarch64-0.10.0-dev.2674+d980c6a38.tar.xz
@@ -38,3 +38,22 @@ https://code.visualstudio.com/docs/remote/remote-overview
 ![VSCode Remote on PinePhone](https://lupyuen.github.io/images/Screenshot%202022-06-22%20at%209.49.10%20AM~2.png)
 
 # TODO
+
+https://github.com/nektro/zigmod/releases
+
+```bash
+curl -O -L https://github.com/nektro/zigmod/releases/download/r80/zigmod-aarch64-linux
+chmod +x zigmod-aarch64-linux 
+./zigmod-aarch64-linux 
+mv zigmod-aarch64-linux zig-linux-aarch64-0.10.0-dev.2674+d980c6a38/zigmod
+```
+
+TODO
+
+```bash
+cd zig-pinephone-gui
+pushd libs/zgt
+zigmod fetch
+popd
+zig build
+```
