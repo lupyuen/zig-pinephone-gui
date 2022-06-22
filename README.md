@@ -28,6 +28,10 @@ export PATH="$PWD/zig-linux-aarch64-0.10.0-dev.2674+d980c6a38:$PATH"
 zig version
 ```
 
+_Will Zig Compiler run on any PinePhone?_
+
+I tested the Zig Compiler with Manjaro Phosh on PinePhone, but I think it should work on any PinePhone distro since the Zig Compiler is a self-contained Arm64 Binary.
+
 ![Zig Compiler on PinePhone](https://lupyuen.github.io/images/GridArt_20220622_102635788~2.jpg)
 
 # Install Zigmod
