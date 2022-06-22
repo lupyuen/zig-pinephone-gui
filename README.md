@@ -74,7 +74,7 @@ zig build
 
 To run the app on PinePhone...
 
-```zig
+```bash
 zig-out/bin/zig-pinephone-gui
 ```
 
