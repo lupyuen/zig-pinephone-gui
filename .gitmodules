@@ -1,0 +1,3 @@
+[submodule "libs/zgt"]
+	path = libs/zgt
+	url = https://github.com/zenith391/zgt
