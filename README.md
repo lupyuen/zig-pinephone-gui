@@ -172,10 +172,10 @@ https://code.visualstudio.com/docs/remote/ssh
 
 # Pinebook Pro
 
-_Will the app run on Arm64 laptops like Pinebook Pro?_
+_Will the Zig GUI App run on Arm64 laptops like Pinebook Pro?_
 
 Yep! The same steps will work on Pinebook Pro.
 
-Here's our app running with Manjaro Xfce on Pinebook Pro...
+Here's our Zig GUI App running with Manjaro Xfce on Pinebook Pro...
 
 ![Our app running with Manjaro Xfce on Pinebook Pro](https://lupyuen.github.io/images/Screenshot_2022-06-22_18-13-31_061534.png)
