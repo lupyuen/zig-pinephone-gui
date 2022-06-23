@@ -2,11 +2,15 @@
 
 # Zig GUI App for PinePhone
 
+[__Follow the updates on Twitter__](https://twitter.com/MisterTechBlog/status/1539782929114484736)
+
 Can we build a Zig GUI App for PinePhone with the zgt library?
 
 https://github.com/zenith391/zgt
 
 Let's find out!
+
+[(More about Zig)](https://ziglang.org)
 
 # Install Zig Compiler
 
