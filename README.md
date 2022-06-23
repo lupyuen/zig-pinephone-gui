@@ -4,6 +4,10 @@
 
 [__Follow the updates on Twitter__](https://twitter.com/MisterTechBlog/status/1539782929114484736)
 
+Read the article...
+
+-   ["Build a PinePhone App with Zig and zgt"](https://lupyuen.github.io/articles/pinephone)
+
 Can we build a Zig GUI App for PinePhone with the zgt library?
 
 https://github.com/zenith391/zgt
