@@ -80,7 +80,7 @@ zig build
 
 [(See the Build Log)](https://gist.github.com/lupyuen/a44bc3faaf6d674d2b227aeb992ccfb8)
 
-If the build fails, check that `libc` and `gtk+-3.0` libraries are installed on PinePhone.
+If the build fails, check that the `libc` and `gtk+-3.0` libraries are installed on PinePhone.
 
 [(Here's why)](https://github.com/zenith391/zgt/blob/master/build.zig#L9-L13)
 
