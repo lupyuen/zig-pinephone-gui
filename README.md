@@ -82,6 +82,8 @@ zig build
 
 If the build fails, check that `libc` and `gtk+-3.0` libraries are installed on PinePhone.
 
+[(Here's why)](https://github.com/zenith391/zgt/blob/master/build.zig#L9-L13)
+
 # Run The App
 
 To run the app on PinePhone...
