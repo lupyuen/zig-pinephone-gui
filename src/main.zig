@@ -4,6 +4,7 @@ const std = @import("std");
 
 /// Main Function for our app
 pub fn main() !void {
+
     // Init the zgt library
     try zgt.backend.init();
 
@@ -12,8 +13,10 @@ pub fn main() !void {
 
     // Set the Window Contents
     try window.set(
+
         // One Column of Widgets
         zgt.Column(.{}, .{
+
             // Top Row of Widgets
             zgt.Row(.{}, .{
                 // Save Button
@@ -21,6 +24,7 @@ pub fn main() !void {
                 // Run Button
                 zgt.Button(.{ .label = "Run",  .onclick = buttonClicked }),
             }),
+
             // Expanded means the widget will take all the space it can
             // in the parent container
             zgt.Expanded(
@@ -42,6 +46,7 @@ pub fn main() !void {
 
 /// This function is called when the Buttons are clicked
 fn buttonClicked(button: *zgt.Button_Impl) !void {
+
     // Print the Button Label to console
     std.log.info(
         "You clicked button with text {s}",
