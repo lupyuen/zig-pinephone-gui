@@ -164,13 +164,17 @@ fn buttonClicked(button: *zgt.Button_Impl) !void {
 }
 ```
 
-Based on...
+This app is based on zgt demo...
 
-https://github.com/zenith391/zgt
+https://github.com/zenith391/zgt#usage
 
 For comparison, here's a typical GTK app coded in C...
 
 https://www.gtk.org/docs/getting-started/hello-world/
+
+Though I think our Zig app looks more like Vala than C...
+
+https://www.gtk.org/docs/language-bindings/vala/
 
 # VSCode Remote
 
