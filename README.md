@@ -80,9 +80,9 @@ zig build
 
 [(See the Build Log)](https://gist.github.com/lupyuen/a44bc3faaf6d674d2b227aeb992ccfb8)
 
-If the build fails, check that the `gtk+-3.0` library is installed on PinePhone.
+If the build fails, check that the `gtk+-3.0` library is installed on PinePhone. [(Here's why)](https://github.com/zenith391/zgt/blob/master/build.zig#L9-L13)
 
-[(Here's why)](https://github.com/zenith391/zgt/blob/master/build.zig#L9-L13)
+[(The app builds OK on Mobian after installing `gtk+-3.0`)](https://twitter.com/techneo/status/1539828828213616640)
 
 # Run The App
 
