@@ -99,6 +99,12 @@ info: You clicked button with text Save
 
 Yep we have successfully built a Zig GUI App for PinePhone with zgt! 🎉
 
+_Is the app fast and responsive on PinePhone?_
+
+Yep it feels as fast and responsive as a GTK app coded in C.
+
+Remember that Zig is a compiled language, and our compiled app is directly calling the GTK Library.
+
 ![Zig GUI App for PinePhone](https://lupyuen.github.io/images/PXL_20220622_061922131~2.jpg)
 
 # Inside The App
@@ -161,6 +167,10 @@ fn buttonClicked(button: *zgt.Button_Impl) !void {
 Based on...
 
 https://github.com/zenith391/zgt
+
+For comparison, here's a typical GTK app coded in C...
+
+https://www.gtk.org/docs/getting-started/hello-world/
 
 # VSCode Remote
 
