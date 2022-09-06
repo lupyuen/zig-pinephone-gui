@@ -4,11 +4,11 @@
 
 Read the article...
 
--   ["Build a PinePhone App with Zig and zgt"](https://lupyuen.github.io/articles/pinephone)
+-   ["Build a PinePhone App with Zig and capy"](https://lupyuen.github.io/articles/pinephone)
 
-Can we build a Zig GUI App for PinePhone with the zgt library?
+Can we build a Zig GUI App for PinePhone with the capy library?
 
-https://github.com/zenith391/zgt
+-   [capy-ui/capy](https://github.com/capy-ui/capy)
 
 Let's find out!
 
@@ -71,7 +71,7 @@ To build the app on PinePhone...
 git clone --recursive https://github.com/lupyuen/zig-pinephone-gui
 cd zig-pinephone-gui
 
-## Install the dependencies for zgt library
+## Install the dependencies for capy library
 pushd libs/zgt
 zigmod fetch
 popd
@@ -103,7 +103,7 @@ info: You clicked button with text Run
 info: You clicked button with text Save
 ```
 
-Yep we have successfully built a Zig GUI App for PinePhone with zgt! 🎉
+Yep we have successfully built a Zig GUI App for PinePhone with capy! 🎉
 
 _Is the app fast and responsive on PinePhone?_
 
@@ -118,13 +118,13 @@ Remember that Zig is a compiled language, and our compiled app is directly calli
 Here's the source code for the app: [`src/main.zig`](src/main.zig)
 
 ```zig
-// Import the zgt library and Zig Standard Library
+// Import the capy library and Zig Standard Library
 const zgt = @import("zgt");
 const std = @import("std");
 
 /// Main Function for our app
 pub fn main() !void {
-    // Init the zgt library
+    // Init the capy library
     try zgt.backend.init();
 
     // Fetch the Window
@@ -170,9 +170,9 @@ fn buttonClicked(button: *zgt.Button_Impl) !void {
 }
 ```
 
-This app is based on zgt demo...
+This app is based on the capy demo...
 
-https://github.com/zenith391/zgt#usage
+https://github.com/capy-ui/capy#usage
 
 For comparison, here's a typical GTK app coded in C...
 
